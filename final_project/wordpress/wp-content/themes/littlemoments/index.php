@@ -8,11 +8,13 @@
   <body <?php body_class(); ?>>
 
     <header>
-      <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      <img src="<?php bloginfo('template_url'); ?>/img/wood_background.jpg">
     </header>
 
-    <h2>Work</h2>
     <div class="preview">
+      <section>
+        <h4>Work</h4>
+      </section>
       <div class="column">
         <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
       </div>
