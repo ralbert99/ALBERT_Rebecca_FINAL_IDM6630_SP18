@@ -1,5 +1,7 @@
 <!-- <?php echo basename(__FILE__); ?>-->
 
+<?php /* Template Name: About */ ?>
+
 <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans+Narrow" rel="stylesheet">
 
 
