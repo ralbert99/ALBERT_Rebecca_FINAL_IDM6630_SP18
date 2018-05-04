@@ -1,9 +1,6 @@
 <!-- <?php echo basename(__FILE__); ?>-->
 
-<?p hp /* Template Name: Shop */ ?>
-
-<link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans+Narrow" rel="stylesheet">
-
+<?php /* Template Name: Shop */ ?>
 
 <?php define( 'WP_USE_THEMES', false ); get_header(); ?>
 
@@ -11,9 +8,40 @@
 
     <header>
       <h2>Shop Page</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </header>
 
+    <div class="preview">
+<!--      <section>
+        <h4>Work</h4>
+      </section> -->
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+      </div>
+    </div>
 
     <footer>
       <?php get_footer(); ?>

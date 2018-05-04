@@ -1,6 +1,6 @@
 <!-- <?php echo basename(__FILE__); ?>-->
 
-<link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans+Narrow" rel="stylesheet">
+<?php /* Template Name: Contact */ ?>
 
 
 <?php define( 'WP_USE_THEMES', false ); get_header(); ?>

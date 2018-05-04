@@ -1,5 +1,9 @@
 <?php
 
+  function register_my_menu() {
+  register_nav_menu('nav',__( 'Navigation' ));
+  }
+  add_action( 'init', 'register_my_menu' );
 
   function create_product_post_type() {
 
@@ -11,6 +15,7 @@
       'labels' => $labels,
       'public' => true
     );
+
 
     register_post_type( 'product' , $args);
   }

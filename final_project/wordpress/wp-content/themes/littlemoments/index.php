@@ -7,9 +7,9 @@
 
   <body <?php body_class(); ?>>
 
-    <header>
-      <img src="<?php bloginfo('template_url'); ?>/img/wood_background.jpg">
-    </header>
+    <div class="container">
+      <img src="<?php bloginfo('template_url'); ?>/img/banner.png">
+    </div>
 
     <div class="preview">
       <section>
@@ -29,7 +29,7 @@
 
     <section>
       <!--<?php get_template_part('columnlayout'); ?> -->
-      <?php get_template_part('loop'); ?>
+      <!--<?php get_template_part('loop'); ?>-->
     </section>
 
     <footer>
