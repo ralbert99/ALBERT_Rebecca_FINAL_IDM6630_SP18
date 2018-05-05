@@ -13,6 +13,7 @@
 
     $args = array(
       'labels' => $labels,
+      'supports' => array('title','editor','thumbnail'),
       'public' => true
     );
 

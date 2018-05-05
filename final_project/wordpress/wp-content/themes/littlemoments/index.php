@@ -1,14 +1,14 @@
 <!-- <?php echo basename(__FILE__); ?>-->
 
-<link rel="stylesheet" type="text/css" href="PUBLIC/css/theme-styles.css" >
-<link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans+Narrow">
+<!-- <link rel="stylesheet" type="text/css" href="PUBLIC/css/theme-styles.css" > -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans+Narrow"> -->
 
 <?php define( 'WP_USE_THEMES', false ); get_header(); ?>
 
   <body <?php body_class(); ?>>
 
     <div class="container">
-      <img src="<?php bloginfo('template_url'); ?>/img/banner.png">
+      <!-- <img src="<?php bloginfo('template_url'); ?>/img/banner.png"> -->
     </div>
 
     <div class="preview">
@@ -16,7 +16,7 @@
         <h4>Work</h4>
       </section>
       <div class="column">
-        <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
+        <a href="<?php echo get_site_url(); ?>/shop"><img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg"></a>
       </div>
       <div class="column">
         <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">

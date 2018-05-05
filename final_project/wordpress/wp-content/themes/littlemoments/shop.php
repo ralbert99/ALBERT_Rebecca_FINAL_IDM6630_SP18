@@ -14,7 +14,12 @@
 <!--      <section>
         <h4>Work</h4>
       </section> -->
-      <div class="column">
+
+      
+      <?php get_template_part('loop-store'); ?>
+    
+
+      <!-- <div class="column">
         <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
       </div>
       <div class="column">
@@ -41,7 +46,7 @@
       <div class="column">
         <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
       </div>
-    </div>
+    </div> -->
 
     <footer>
       <?php get_footer(); ?>
