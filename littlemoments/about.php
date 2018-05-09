@@ -9,17 +9,16 @@
 
   <body class="about" <?php body_class(); ?>>
 
-    <header>
       <div class="container">
+        <h1>Little Moments</h1>
       </div>
-        <div class="column">
-          <img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg">
-        </div>
-      <h2>About Us</h2>
-      <p>Little Moments is a small business that hopes to support the continued
-      production of handmade, artisnal crafts and beyond.</p>
-    </header>
 
+      <div class="column">
+        <img src="<?php bloginfo('template_url'); ?>/img/moodyprofpic.jpg">
+        <h2>About Us</h2>
+        <p>Little Moments is a small business that hopes to support the continued
+        production of handmade, artisnal crafts and beyond.</p>
+      </div>
 
     <footer>
       <?php get_footer(); ?>

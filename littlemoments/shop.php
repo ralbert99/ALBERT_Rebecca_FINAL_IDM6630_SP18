@@ -5,11 +5,12 @@
 <?php define( 'WP_USE_THEMES', false ); get_header(); ?>
 
   <div class="container">
+    <h1>Little Moments</h1>
   </div>
 
   <body class="shop" <?php body_class(); ?>>
 
-    <h1>Shop Page</h1>
+    <h2>Shop Page</h2>
 
     <div class="preview">
 

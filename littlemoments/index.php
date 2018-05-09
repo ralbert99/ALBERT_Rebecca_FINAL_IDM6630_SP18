@@ -7,24 +7,21 @@
   <body <?php body_class(); ?>>
 
     <div class="container">
+      <h1>Little Moments</h1>
     </div>
 
     <div class="preview">
-      <section>
-        <h4>Work</h4>
-      </section>
       <div class="column">
-        <a href="<?php echo get_site_url(); ?>/shop"><img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg"></a>
+        <a href="<?php echo get_site_url(); ?>/shop"><img src="<?php bloginfo('template_url'); ?>/img/jewelry3.jpg"></a>
       </div>
       <div class="column">
-        <a href="<?php echo get_site_url(); ?>/shop"><img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg"></a>
+        <a href="<?php echo get_site_url(); ?>/shop"><img src="<?php bloginfo('template_url'); ?>/img/jewelry9.jpg"></a>
       </div>
       <div class="column">
-        <a href="<?php echo get_site_url(); ?>/shop"><img src="<?php bloginfo('template_url'); ?>/img/marble_header.jpg"></a>
+        <a href="<?php echo get_site_url(); ?>/shop"><img src="<?php bloginfo('template_url'); ?>/img/jewelry5.jpg"></a>
       </div>
+      <p>Little Moments hopes to capture the memories and moments that are special to each individual in a unique, handmade format. Utilizing a variety of pigments, resin, and organic elements, each piece is uniquely crafted with an individual moment in mind. Visit the shop page for a full view of the pieces available, and then go on over to the contact page to get in contact with the creator to order your unique piece.</p>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
     <section>
       <!--<?php get_template_part('columnlayout'); ?> -->
       <!--<?php get_template_part('loop'); ?>-->
